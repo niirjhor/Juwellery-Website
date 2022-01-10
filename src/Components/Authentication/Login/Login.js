@@ -83,7 +83,7 @@ const Login = () => {
                 <h6 style={{color:"red"}}>{error} </h6>
                 <p className="alternate-msg">New User ? <Link style={{textDecoration:'none', color:'orange'}} to="/register">Please Signup first</Link> </p> 
                 <p>----- OR -----</p>
-                <Button onClick={handleGoogleSignIn} variant="danger"><i className="fab fa-google"></i>oogle Sign In</Button>
+                <Button onClick={handleGoogleSignIn} variant="danger"><i className="fab fa-google"></i>Google Sign In</Button>
 
                 
  

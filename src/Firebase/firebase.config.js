@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCmGTM8WQfHiaVrAuNqPfMG_7Ql5PY-HME",
-    authDomain: "jewellery-house.firebaseapp.com",
-    projectId: "jewellery-house",
-    storageBucket: "jewellery-house.appspot.com",
-    messagingSenderId: "1043643960254",
-    appId: "1:1043643960254:web:a9bbdd4187f1cbcc5287ef"
+    apiKey: "AIzaSyAuh7QO85D8V1MGeHio15rewuqR7dnSmKg",
+    authDomain: "react-firebase-auth-5dbc9.firebaseapp.com",
+    projectId: "react-firebase-auth-5dbc9",
+    storageBucket: "react-firebase-auth-5dbc9.appspot.com",
+    messagingSenderId: "691651715010",
+    appId: "1:691651715010:web:f1c53630e75ab3ebc0c05b"
   };
 
 
