@@ -5,7 +5,7 @@
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="https://jewellery-house.web.app/"
+        href="https://react-firebase-auth-5dbc9.web.app/"
         >Check Here...</a
       >
     </li>    
