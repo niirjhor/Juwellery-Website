@@ -1,8 +1,8 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import banner1 from '../../../images/Banner/banner5.jpg'
-import banner2 from '../../../images/Banner/Banner7.jpg'
+import banner1 from '../../../images/Banner/banner7.jpg'
+import banner2 from '../../../images/Banner/banner5.jpg'
 import banner3 from '../../../images/Banner/banner6.jpg'
 
 
@@ -13,6 +13,7 @@ const Banner = () => {
       <Carousel>
         <Carousel.Item>
           <img
+          style={{height:400}}
             className="d-block w-100 banner-img"
             src={banner1}
             alt="First slide"
@@ -35,6 +36,7 @@ const Banner = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
+          style={{height:400}}
             className="d-block w-100 banner-img"
             src={banner2}
             alt="Second slide"
@@ -58,6 +60,7 @@ const Banner = () => {
         </Carousel.Item>
         <Carousel.Item>
           <img
+          style={{height:400}}
             className="d-block w-100 banner-img"
             src={banner3}
           />

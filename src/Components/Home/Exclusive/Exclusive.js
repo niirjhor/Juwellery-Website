@@ -1,8 +1,8 @@
 import React from 'react';
-import img1 from '../../../images/exclusive/ex1.jpg';
-import img2 from '../../../images/exclusive/ex2.jpg';
-import img3 from '../../../images/exclusive/ex3.jpg';
-import img4 from '../../../images/exclusive/ex4.jpg';
+import img1 from '../../../images/exclusive/ex1.JPG';
+import img2 from '../../../images/exclusive/ex2.JPG';
+import img3 from '../../../images/exclusive/ex3.JPG';
+import img4 from '../../../images/exclusive/ex4.JPG';
 import './Exclusive.css'
 
 
@@ -15,7 +15,7 @@ const Exclusive = () => {
 
         <div className="col-md-3">
           <div className="product-top">
-            <img src={img1} alt="" />
+            <img className='imageup' src={img1} alt="" />
             <div className="overlay">
               <button type="button" className="btn btn-secondary" title="Quick Shop"><i className="far fa-eye"></i></button>
 
@@ -41,7 +41,7 @@ const Exclusive = () => {
 
         <div className="col-md-3">
           <div className="product-top">
-            <img src={img2} alt="" />
+            <img className='imageup'  src={img2} alt="" />
             <div className="overlay">
               <button type="button" className="btn btn-secondary" title="Quick Shop"><i className="far fa-eye"></i></button>
 
@@ -64,7 +64,7 @@ const Exclusive = () => {
 
         <div className="col-md-3">
           <div className="product-top">
-            <img src={img3} alt="" />
+            <img className='imageup'  src={img3} alt="" />
             <div className="overlay">
               <button type="button" className="btn btn-secondary" title="Quick Shop"><i className="far fa-eye"></i></button>
 
